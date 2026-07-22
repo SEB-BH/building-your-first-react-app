@@ -1,0 +1,60 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/wm1yx9s45f"
+}
+
+gettingStartedWithReact = new Template.Microlesson {
+  friendlyName = "Getting Started with React"
+  dirName = "getting-started-with-react"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/01jc0ocskq"
+}
+
+functionComponents = new Template.Microlesson {
+  friendlyName = "Function Components"
+  dirName = "function-components"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/wgg7emvj9s"
+}
+
+jsxFundamentals = new Template.Microlesson {
+  friendlyName = "JSX Fundamentals"
+  dirName = "jsx-fundamentals"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/4maf1aavwp"
+}
+
+javascriptInJsx = new Template.Microlesson {
+  friendlyName = "JavaScript in JSX"
+  dirName = "javascript-in-jsx"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/kmq6psomr0"
+}
+
+conditionalRendering = new Template.Microlesson {
+  friendlyName = "Conditional Rendering"
+  dirName = "conditional-rendering"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/mlal87pg46"
+}
+
+loopingWithJsxElements = new Template.Microlesson {
+  friendlyName = "Looping with JSX Elements"
+  dirName = "looping-with-jsx-elements"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/p0i9yjy64y"
+}
+
+conditionalRenderingInLoops = new Template.Microlesson {
+  friendlyName = "Conditional Rendering in Loops"
+  dirName = "conditional-rendering-in-loops"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/jafp3e8jen"
+}
+

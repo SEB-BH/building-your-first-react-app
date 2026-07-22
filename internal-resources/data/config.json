@@ -1,0 +1,344 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Building Your First React App",
+    "name": "building-your-first-react-app",
+    "type": "Lesson",
+    "about": "",
+    "starterCode": "",
+    "solutionCode": "",
+    "deployedSite": ""
+  },
+  "courses": [
+    {
+      "name": "rds",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Getting Started with React",
+          "dirName": "getting-started-with-react",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/01jc0ocskq",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Function Components",
+          "dirName": "function-components",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wgg7emvj9s",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JSX Fundamentals",
+          "dirName": "jsx-fundamentals",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/4maf1aavwp",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JavaScript in JSX",
+          "dirName": "javascript-in-jsx",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/kmq6psomr0",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering",
+          "dirName": "conditional-rendering",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/mlal87pg46",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Looping with JSX Elements",
+          "dirName": "looping-with-jsx-elements",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/p0i9yjy64y",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering in Loops",
+          "dirName": "conditional-rendering-in-loops",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "seb",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Getting Started with React",
+          "dirName": "getting-started-with-react",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/01jc0ocskq",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Function Components",
+          "dirName": "function-components",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wgg7emvj9s",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JSX Fundamentals",
+          "dirName": "jsx-fundamentals",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/4maf1aavwp",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JavaScript in JSX",
+          "dirName": "javascript-in-jsx",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/kmq6psomr0",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering",
+          "dirName": "conditional-rendering",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/mlal87pg46",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Looping with JSX Elements",
+          "dirName": "looping-with-jsx-elements",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/p0i9yjy64y",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering in Loops",
+          "dirName": "conditional-rendering-in-loops",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "fallback",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Getting Started with React",
+          "dirName": "getting-started-with-react",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/01jc0ocskq",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Function Components",
+          "dirName": "function-components",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wgg7emvj9s",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JSX Fundamentals",
+          "dirName": "jsx-fundamentals",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/4maf1aavwp",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "JavaScript in JSX",
+          "dirName": "javascript-in-jsx",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/kmq6psomr0",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering",
+          "dirName": "conditional-rendering",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/mlal87pg46",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Looping with JSX Elements",
+          "dirName": "looping-with-jsx-elements",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/p0i9yjy64y",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Conditional Rendering in Loops",
+          "dirName": "conditional-rendering-in-loops",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}
