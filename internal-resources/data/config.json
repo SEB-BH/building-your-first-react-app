@@ -98,6 +98,16 @@
           "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Common Errors in React",
+          "dirName": "common-errors-in-react",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -207,6 +217,16 @@
           "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Common Errors in React",
+          "dirName": "common-errors-in-react",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -310,6 +330,16 @@
         {
           "friendlyName": "Conditional Rendering in Loops",
           "dirName": "conditional-rendering-in-loops",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Common Errors in React",
+          "dirName": "common-errors-in-react",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
