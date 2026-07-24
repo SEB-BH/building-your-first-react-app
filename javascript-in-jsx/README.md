@@ -7,14 +7,42 @@
 
 ## JavaScript in JSX
 
-Curly braces let us use JavaScript values inside JSX.
+**Curly braces let us use JavaScript values inside JSX.**
 
-Create a `task` object inside the `TaskList` component:
+Create a `task` variable inside the `TaskList` component and assign to it a string of `'Learn React'`:
+```jsx
+// src/components/TaskList.jsx
+
+const TaskList = () => {
+   
+  const task = 'Learn React'
+
+
+```
+
+We can display the value of `task` inside curly braces:
+
+```jsx
+// src/components/TaskList.jsx
+
+  return (
+    <section className="task-list">
+      <h1>Task List</h1>
+      <p>{task}</p>
+      <hr />
+    </section>
+  )
+}
+```
+
+
+Turn `task` into an object inside the `TaskList` component:
 
 ```jsx
 // src/components/TaskList.jsx
 
 const TaskList = () => {
+   
   const task = {
     text: 'Learn React',
     done: true
@@ -23,7 +51,7 @@ const TaskList = () => {
   return (
     <section className="task-list">
       <h1>Task List</h1>
-      <p>Tasks I want to complete</p>
+      <p>{task}</p>
       <hr />
     </section>
   )
@@ -44,6 +72,7 @@ Update the component:
 // src/components/TaskList.jsx
 
 const TaskList = () => {
+
   const task = {
     text: 'Learn React',
     done: true

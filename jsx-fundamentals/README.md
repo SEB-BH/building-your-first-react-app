@@ -80,13 +80,13 @@ export default TaskList
 
 ### Use `className`
 
-In HTML, we use `class`:
+In HTML, we use `class` ❌:
 
 ```html
 <section class="task-list"></section>
 ```
 
-In JSX, we use `className`:
+In JSX, we use `className` ✅:
 
 ```jsx
 <section className="task-list"></section>

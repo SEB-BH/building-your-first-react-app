@@ -83,7 +83,22 @@ export default TaskList
 
 ### Step 5: Import the component into `App`
 
-Replace the contents of `App.jsx` with:
+Import `TaskList` at the top of `App.jsx`, and render it within the `return`:
+
+
+This line imports the component:
+
+```jsx
+import TaskList from './components/TaskList.jsx'
+```
+
+We then display (render) it using a self-closing component tag:
+
+```jsx
+<TaskList />
+```
+
+Our final `App.jsx` (notice we deleted our `<h1>` tags and added `<div>`):
 
 ```jsx
 // src/App.jsx
@@ -92,25 +107,13 @@ import TaskList from './components/TaskList.jsx'
 
 const App = () => {
   return (
-    <main>
+    <div>
       <TaskList />
-    </main>
+    </div>
   )
 }
 
 export default App
-```
-
-This line imports the component:
-
-```jsx
-import TaskList from './components/TaskList.jsx'
-```
-
-We then display it using a self-closing component tag:
-
-```jsx
-<TaskList />
 ```
 
 Open the browser. You should see:

@@ -84,9 +84,6 @@ The React `root` is now rendering a single `App` component (ignore the `StrictMo
 ```jsx
 // src/App.jsx
 
-import './App.css'
-
-
 const App = () => {
 
   return (
@@ -115,7 +112,7 @@ You should see that `Vite` is available on port number 5173:
 localhost:5173
 ```
 
-Navigate there, and you should see the `<h1>` from our `App.jsx` component displayed!
+Navigate there, and you should see the `Hello, world!` from our `App.jsx` component displayed! 
 
 ## Other files
 
@@ -130,3 +127,21 @@ Vite created a few other files and directories for us when we created this proje
 You don't need to worry about the contents of these files for now, but they will be helpful down the road as you go on your React journey.
 
 > 💡 **It's worth noting that we'll be doing the bulk of work with React in `App.jsx` along with other files we'll be creating in the future.**
+
+<details>
+  <summary>A Note on CSS</summary>
+
+You may already notice some styling in the browser.
+
+That styling is coming from `src/index.css`, which is imported near the top of `main.jsx`:
+
+```jsx
+import './index.css'
+```
+
+Because `index.css` is imported in `main.jsx`, its styles can affect the entire application.
+
+We will explore CSS in React in a later lesson. For now, just remember that the default styling comes from `index.css`.
+
+
+</details>
