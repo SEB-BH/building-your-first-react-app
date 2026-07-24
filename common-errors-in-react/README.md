@@ -170,7 +170,7 @@ Without `export default Task`, the import in `App.jsx` will fail.
 
 # Using `class` instead of `className`
 
-![class](./assets/class.png)
+<img src="./assets/class.png" width="500px">
 
 JSX uses `className` instead of `class`.
 
