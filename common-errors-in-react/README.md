@@ -11,6 +11,8 @@ Errors are a normal part of building a React app. Read the error message and che
 
 # The development server is not running
 
+<img src="./assets/server-not-running.png" width="500px">
+
 ![server-not-running](./assets/server-not-running.png)
 
 If the browser cannot open your app, make sure the development server is running:
