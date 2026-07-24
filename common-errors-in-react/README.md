@@ -13,8 +13,6 @@ Errors are a normal part of building a React app. Read the error message and che
 
 <img src="./assets/server-not-running.png" width="500px">
 
-![server-not-running](./assets/server-not-running.png)
-
 If the browser cannot open your app, make sure the development server is running:
 
 ```bash
@@ -27,7 +25,7 @@ Keep this terminal open while working on the app.
 
 # Running the command from the wrong folder
 
-![wrong-folder](./assets/wrong-folder.png)
+<img src="./assets/wrong-folder.png" width="500px">
 
 If you see an error about a missing `package.json`, you may be in the wrong directory.
 
@@ -54,8 +52,8 @@ vite.config.js
 
 # Returning more than one element
 
-![no-fragment](./assets/no-fragment.png)
-![no-fragment2](./assets/no-fragment2.png)
+<img src="./assets/no-fragment.png" width="500px">
+<img src="./assets/no-fragment2.png" width="500px">
 
 A component must return one parent element.
 
@@ -85,8 +83,8 @@ const App = () => {
 
 # A tag is not closed
 
-![no-fragment](./assets/no-fragment.png)
-![no-fragment2](./assets/no-fragment2.png)
+<img src="./assets/no-fragment.png" width="500px">
+<img src="./assets/no-fragment2.png" width="500px">
 
 Every JSX tag must be closed.
 
@@ -110,7 +108,7 @@ Elements with content need an opening and closing tag:
 
 # The component name is lowercase
 
-![lowercase](./assets/lowercase.png)
+<img src="./assets/lowercase.png" width="500px">
 
 React component names must begin with a capital letter.
 
@@ -136,8 +134,8 @@ export default App
 
 # The import path is incorrect
 
-![wrong-path](./assets/wrong-path.png)
-![wrong-path2](./assets/wrong-path2.png)
+<img src="./assets/wrong-path.png" width="500px">
+<img src="./assets/wrong-path2.png" width="500px">
 
 An import path must match the file’s location and spelling.
 
@@ -156,7 +154,7 @@ For example, `App.jsx` and `app.jsx` may be treated as different filenames.
 
 # The component was not exported
 
-![not-exported](./assets/not-exported.png)
+<img src="./assets/not-exported.png" width="500px">
 
 A component must be exported before another file can import it:
 
@@ -191,7 +189,7 @@ Correct:
 
 # Using curly braces without `return`
 
-![no-return](./assets/no-return.png)
+<img src="./assets/no-return.png" width="500px">
 
 **Rather than see an error, you simply won't see what you're trying to display on the page.**
 
@@ -233,7 +231,7 @@ The parentheses return the JSX automatically.
 
 # Forgetting a `key`
 
-![key-warning](./assets/key-warning.png)
+<img src="./assets/key-warning.png" width="500px">
 
 When using `.map()` to create JSX elements, each element needs a unique `key`.
 
