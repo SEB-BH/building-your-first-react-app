@@ -11,17 +11,17 @@ You will learn to build and export function components, integrate JavaScript wit
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                                   |  3 min | Create a new React application using Vite.                                                                           |
-| [Getting Started with React](./getting-started-with-react/README.md)         |  9 min | Explore the React file structure created by Vite, and start the development server.                                  |
-| [Function Components](./function-components/README.md)                       |  4 min | Create and export function components in React.                                                                      |
-| [JSX Fundamentals](./jsx-fundamentals/README.md)                             |  8 min | Return JSX from a function component in React.                                                                       |
-| [JavaScript in JSX](./javascript-in-jsx/README.md)                           |  5 min | Embed JavaScript values and expressions into JSX.                                                                    |
-| [Conditional Rendering](./conditional-rendering/README.md)                   |  5 min | Using ternary expressions to implement conditional rendering in JSX.                                                 |
-| [Looping with JSX Elements](./looping-with-jsx-elements/README.md)           | 11 min | Use the `map()` method to loop through arrays and transform them into JSX elements.                                  |
-| [Conditional Rendering in Loops](./conditional-rendering-in-loops/README.md) |  3 min | Use loops to create lists in React and apply conditions to change how each list item is displayed based on its data. |
-| **Total content**                                                            | 48 min | --                                                           |                                                                                                                      |
+| Lesson | Skills |
+| ------ | ------ |
+| [Setup](./setup/README.md)                                                   | Create a new React application using Vite.                                                                           |
+| [Getting Started with React](./getting-started-with-react/README.md)         | Explore the React file structure created by Vite, and start the development server.                                  |
+| [Function Components](./function-components/README.md)                       | Create and export function components in React.                                                                      |
+| [JSX Fundamentals](./jsx-fundamentals/README.md)                             | Return JSX from a function component in React.                                                                       |
+| [JavaScript in JSX](./javascript-in-jsx/README.md)                           | Embed JavaScript values and expressions into JSX.                                                                    |
+| [Conditional Rendering](./conditional-rendering/README.md)                   | Using ternary expressions to implement conditional rendering in JSX.                                                 |
+| [Looping with JSX Elements](./looping-with-jsx-elements/README.md)           | Use the `map()` method to loop through arrays and transform them into JSX elements.                                  |
+| [Conditional Rendering in Loops](./conditional-rendering-in-loops/README.md) | Use loops to create lists in React and apply conditions to change how each list item is displayed based on its data. |
+| **Total content**                                                            | --                                                           |                                                                                                                      |
 
 ## References
 
