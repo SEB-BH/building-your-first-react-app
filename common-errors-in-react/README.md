@@ -11,6 +11,8 @@ Errors are a normal part of building a React app. Read the error message and che
 
 ### The development server is not running
 
+![server-not-running](./assets/server-not-running.png)
+
 If the browser cannot open your app, make sure the development server is running:
 
 ```bash
@@ -22,6 +24,8 @@ Run this command from inside your React project folder.
 Keep this terminal open while working on the app.
 
 ### Running the command from the wrong folder
+
+![wrong-folder](./assets/wrong-folder.png)
 
 If you see an error about a missing `package.json`, you may be in the wrong directory.
 
@@ -47,6 +51,9 @@ vite.config.js
 ```
 
 ### Returning more than one element
+
+![no-fragment](./assets/no-fragment.png)
+![no-fragment2](./assets/no-fragment2.png)
 
 A component must return one parent element.
 
@@ -76,6 +83,9 @@ const App = () => {
 
 ### A tag is not closed
 
+![no-fragment](./assets/no-fragment.png)
+![no-fragment2](./assets/no-fragment2.png)
+
 Every JSX tag must be closed.
 
 Incorrect:
@@ -97,6 +107,8 @@ Elements with content need an opening and closing tag:
 ```
 
 ### The component name is lowercase
+
+![lowercase](./assets/lowercase.png)
 
 React component names must begin with a capital letter.
 
@@ -122,6 +134,9 @@ export default App
 
 ### The import path is incorrect
 
+![wrong-path](./assets/wrong-path.png)
+![wrong-path2](./assets/wrong-path2.png)
+
 An import path must match the file’s location and spelling.
 
 ```jsx
@@ -139,19 +154,23 @@ For example, `App.jsx` and `app.jsx` may be treated as different filenames.
 
 ### The component was not exported
 
+![not-exported](./assets/not-exported.png)
+
 A component must be exported before another file can import it:
 
 ```jsx
-const App = () => {
+const Task = () => {
   return <h1>Hello, world!</h1>
 }
 
-export default App
+export default Task
 ```
 
-Without `export default App`, the import in `main.jsx` will fail.
+Without `export default Task`, the import in `App.jsx` will fail.
 
 ### Using `class` instead of `className`
+
+![class](./assets/class.png)
 
 JSX uses `className` instead of `class`.
 
@@ -169,6 +188,10 @@ Correct:
 
 
 ### Using curly braces without `return`
+
+![no-return](./assets/no-return.png)
+
+**Rather than see an error, you simply won't see what you're trying to display on the page.**
 
 Arrow functions can use either parentheses or curly braces.
 
