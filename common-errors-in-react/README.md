@@ -9,7 +9,7 @@
 
 Errors are a normal part of building a React app. Read the error message and check the terminal, browser, and browser console for more information.
 
-### The development server is not running
+# The development server is not running
 
 ![server-not-running](./assets/server-not-running.png)
 
@@ -23,7 +23,7 @@ Run this command from inside your React project folder.
 
 Keep this terminal open while working on the app.
 
-### Running the command from the wrong folder
+# Running the command from the wrong folder
 
 ![wrong-folder](./assets/wrong-folder.png)
 
@@ -50,7 +50,7 @@ index.html
 vite.config.js
 ```
 
-### Returning more than one element
+# Returning more than one element
 
 ![no-fragment](./assets/no-fragment.png)
 ![no-fragment2](./assets/no-fragment2.png)
@@ -81,7 +81,7 @@ const App = () => {
 }
 ```
 
-### A tag is not closed
+# A tag is not closed
 
 ![no-fragment](./assets/no-fragment.png)
 ![no-fragment2](./assets/no-fragment2.png)
@@ -106,7 +106,7 @@ Elements with content need an opening and closing tag:
 <h1>Hello, world!</h1>
 ```
 
-### The component name is lowercase
+# The component name is lowercase
 
 ![lowercase](./assets/lowercase.png)
 
@@ -132,7 +132,7 @@ const App = () => {
 export default App
 ```
 
-### The import path is incorrect
+# The import path is incorrect
 
 ![wrong-path](./assets/wrong-path.png)
 ![wrong-path2](./assets/wrong-path2.png)
@@ -152,7 +152,7 @@ Check that:
 
 For example, `App.jsx` and `app.jsx` may be treated as different filenames.
 
-### The component was not exported
+# The component was not exported
 
 ![not-exported](./assets/not-exported.png)
 
@@ -168,7 +168,7 @@ export default Task
 
 Without `export default Task`, the import in `App.jsx` will fail.
 
-### Using `class` instead of `className`
+# Using `class` instead of `className`
 
 ![class](./assets/class.png)
 
@@ -187,7 +187,7 @@ Correct:
 ```
 
 
-### Using curly braces without `return`
+# Using curly braces without `return`
 
 ![no-return](./assets/no-return.png)
 
@@ -229,7 +229,7 @@ For shorter code, use parentheses instead of curly braces:
 
 The parentheses return the JSX automatically.
 
-### Forgetting a `key`
+# Forgetting a `key`
 
 ![key-warning](./assets/key-warning.png)
 
