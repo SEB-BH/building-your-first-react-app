@@ -128,3 +128,5 @@ Vite created a few other files and directories for us when we created this proje
 
 
 You don't need to worry about the contents of these files for now, but they will be helpful down the road as you go on your React journey.
+
+> 💡 **It's worth noting that we'll be doing the bulk of work with React in `App.jsx` along with other files we'll be creating in the future.**

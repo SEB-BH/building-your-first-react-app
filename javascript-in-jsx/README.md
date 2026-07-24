@@ -3,67 +3,71 @@
   <span class="subhead">JavaScript in JSX</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to embed JavaScript values and expressions into JSX.
+**Learning objective:** By the end of this lesson, students will be able to display JavaScript values inside JSX.
 
 ## JavaScript in JSX
 
-Let's explore how to integrate JavaScript into JSX using curly braces. This capability allows us to insert JavaScript values and expressions into our JSX dynamically.
+Curly braces let us use JavaScript values inside JSX.
 
-To explore using JSX curly braces, let's create some new data. For now, let's make a single object called `todo`:
+Create a `task` object inside the `TaskList` component:
 
 ```jsx
-// src/App.jsx
+// src/components/TaskList.jsx
 
-const App = () => {
-  // add the following:
-  const todo = { text: 'A brand new task', done: true };
+const TaskList = () => {
+  const task = {
+    text: 'Learn React',
+    done: true
+  }
 
   return (
-    <>
-      <h1>Hello world!</h1>
-      <h2>Hello universe!</h2>
+    <section className="task-list">
+      <h1>Task List</h1>
+      <p>Tasks I want to complete</p>
       <hr />
-    </>
-  );
-};
+    </section>
+  )
+}
+
+export default TaskList
 ```
 
-Curly braces allow us to add JavaScript to our JSX. We can write any JavaScript expression inside of the curly braces, and the result of the expression will be inserted into the DOM. This means we can use dot notation to access a property on our `todo` object:
+We can display the task's `text` property using curly braces:
 
 ```jsx
-// src/App.jsx
-
-const App = () => {
-  const todo = { text: 'A brand new task', done: true };
-
-  // replace the existing return with the following:
-  return (
-    <>
-      <h1>JavaScript in JSX</h1>
-      <p>{todo.text}</p>
-    </>
-  );
-};
+<p>{task.text}</p>
 ```
 
-Inside curly braces, we can reference the `todo` object and inject the value held on its `text` property directly into our HTML-like syntax!
+Update the component:
 
-### Expressions vs. statements in JavaScript
+```jsx
+// src/components/TaskList.jsx
 
-Remember, we can only write JavaScript expressions inside of the curly braces. JavaScript expressions evaluate to a single value. They can be:
+const TaskList = () => {
+  const task = {
+    text: 'Learn React',
+    done: true
+  }
 
-- Assigned to a variable
-- Provided as an argument to a function
-- Returned from a function
-- Passed to a `console.log()`
+  return (
+    <section className="task-list">
+      <h1>Task List</h1>
+      <p>{task.text}</p>
+    </section>
+  )
+}
 
-Here are some examples:
+export default TaskList
+```
 
-- `2 + 2`
-- `"Hello."`
-- `age > 21`
-- `myFunc()`
+React evaluates the JavaScript inside the curly braces and displays the result.
 
-Statements perform actions, and applications consist primarily of statements.
+We can place JavaScript expressions inside curly braces:
 
-We'll explore this idea more as we continue using JSX.
+```jsx
+<p>{2 + 2}</p>
+<p>{task.text}</p>
+<p>{task.done}</p>
+```
+
+However, Boolean values such as `true` and `false` are not displayed as text on the page.

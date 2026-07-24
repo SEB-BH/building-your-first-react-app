@@ -3,103 +3,109 @@
   <span class="subhead">JSX Fundamentals</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to return JSX from a function component in React.
+**Learning objective:** By the end of this lesson, students will be able to write JSX inside a React component.
 
 ## JSX fundamentals
 
-Developers typically separate structure (markup) and logic into separate files when creating apps. This method does a nice job of keeping the app's layout and functionality separate, but it can also add time and complexity to the development process.
+JSX lets us write HTML-like markup inside JavaScript.
 
-JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file, making it faster and easier to build complex user interfaces.
+We will continue working inside `TaskList.jsx`.
 
-## JSX syntax
+### Return one parent element
 
-Because JSX's basic structure is so similar to HTML, it's easiest to examine it by highlighting the few places where its behavior differs.
+A component must return one parent element.
 
-### Returning a single element
-
-Elements must be wrapped in a single parent tag. You can see this for yourself in `App.jsx` if you add an `<h2>` below the existing `<h1>`:
+This will cause an error:
 
 ```jsx
-// src/App.jsx
-
-const App = () => {
-  return (
-    <h1>Hello world!</h1>
-    <h2>Hello universe!</h2>
-  );
-};
+return (
+  <h1>Task List</h1>
+  <p>Tasks I want to complete</p>
+)
 ```
 
-After this change, you'll see a resulting error:
+The `<h1>` and `<p>` are separate elements.
 
-![An error indicating that JSX expressions must only have a single parent element.](./assets/return-multiple-elements.png)
-
-This error occurs because the code that is written is ultimately executed as JavaScript (even if it looks like HTML). Functions in JavaScript can only return a single thing, so we need a way to bundle multiple elements together inside of a single element:
+We can wrap them in a React Fragment:
 
 ```jsx
-// src/App.jsx
+// src/components/TaskList.jsx
 
-const App = () => {
-  return (
-    <div>
-      <h1>Hello world!</h1>
-      <h2>Hello universe!</h2>
-    </div>
-  );
-};
-```
-
-Now we're error-free, but in this process, we've added a `<div>` element that we didn't need for anything other than to make our application run. While this isn't the worst thing, it's not ideal either. To solve this problem, we can add a special element in React called a [Fragment](https://react.dev/reference/react/Fragment), represented with empty `<>` and `</>` tags.
-
-Fragments wrap around elements to bundle them, just like what we accomplished with the `<div>` above. Check it out:
-
-```jsx
-// src/App.jsx
-
-const App = () => {
+const TaskList = () => {
   return (
     <>
-      <h1>Hello world!</h1>
-      <h2>Hello universe!</h2>
+      <h1>Task List</h1>
+      <p>Tasks I want to complete</p>
     </>
-  );
-};
+  )
+}
+
+export default TaskList
 ```
 
-These special elements don't result in any new HTML being added to the page, so you should use them when you want to bundle things together so that you can return them all together but don't want to create any resulting HTML due to that bundling.
-
-### Tags must be explicitly closed
-
-Tags in JSX are not self-closing. For example, elements like the `<hr>` (horizontal rule) element that would be self-closing in HTML must be closed with a `/` before its closing `>` as shown here:
+Fragments are written using:
 
 ```jsx
-// src/App.jsx
+<>
+</>
+```
 
-const App = () => {
+They group elements without adding another HTML element to the page.
+
+### Close every tag
+
+Every JSX tag must be closed.
+
+Elements without content use a `/`:
+
+```jsx
+<hr />
+```
+
+Add an `<hr />` to the component:
+
+```jsx
+const TaskList = () => {
   return (
     <>
-      <h1>Hello world!</h1>
-      <h2>Hello universe!</h2>
+      <h1>Task List</h1>
+      <p>Tasks I want to complete</p>
       <hr />
     </>
-  );
-};
+  )
+}
+
+export default TaskList
 ```
 
-### camelCasing element attributes
+### Use `className`
 
-As mentioned above, JSX turns into JavaScript. Any attributes written in JSX will become keys of JavaScript objects, which have the same limitations as any JavaScript variable name. For example, in JavaScript, `class` is a reserved word, so we have to account for that when composing JSX as well.
-
-In HTML, we could write:
+In HTML, we use `class`:
 
 ```html
-<div class="container"></div>
+<section class="task-list"></section>
 ```
 
-but in JSX, we would use [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className#notes) - camelCased - instead:
+In JSX, we use `className`:
 
 ```jsx
-<div className="container"></div>
+<section className="task-list"></section>
 ```
 
-JavaScript also forbids dashes in variable names, so you'll notice that any attributes that use a dash in HTML are written camelCased in JSX.
+We can use a `<section>` as the parent element instead of a Fragment:
+
+```jsx
+// src/components/TaskList.jsx
+
+const TaskList = () => {
+  return (
+    <section className="task-list">
+      <h1>Task List</h1>
+      <p>Tasks I want to complete</p>
+      <hr />
+    </section>
+  )
+}
+
+export default TaskList
+```

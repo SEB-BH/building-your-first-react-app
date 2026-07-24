@@ -3,55 +3,57 @@
   <span class="subhead">Conditional Rendering in Loops</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to use loops to create lists in React and apply conditions to change how each list item is displayed based on its data.
+**Learning objective:** By the end of this lesson, students will be able to conditionally change each item created with `map()`.
 
 ## Conditional rendering in loops
 
-We've learned how to render data in JSX conditionally, loop over data, and transform it into JSX list elements. There may be times when you wish to do both - for example, let's say you want to iterate over `todos` and mark when a task is complete.
+We can combine `map()` with a ternary expression.
 
-We can use `map()` to iterate over the `todos` data, transforming each element into an `<li>` element. Inside each `<li>`, we'll include the conditional rendering code we used earlier, attaching a prefix if `todo.done` is truthy. The result looks like the following:
+For each task, we will display:
+
+* `✅` when the task is complete
+* `⬜` when the task is incomplete
+
+Add the ternary inside each `<li>`:
 
 ```jsx
-const App = () => {
-  const todo = { text: 'A brand new task', done: true }
-  const todos = [
-    {text: 'Learn JavaScript', done: true},
-    {text: 'Learn JSX', done: false},
-    {text: 'Learn HTML', done: true},
-    {text: 'Learn CSS', done: true},
-    {text: 'Master React', done: false},
-  ];
-
-  return (
-    <>
-      <h1>JavaScript in JSX</h1>
-      <p>{todo.text}</p>
-
-      <h2>Conditional Rendering</h2>
-      <p>{todo.done ? `Task Completed - ${todo.text}` : todo.text }</p>
-
-      <h2>Looping with JSX</h2>
-      <ul>
-        {todos.map((todo, index) =>
-          <li key={index}>
-            {todo.text}
-          </li>
-        )}
-      </ul>
-
-      <h2>Looping and Conditional Rendering</h2>
-      <ul>
-        {todos.map((todo, index) => 
-          <li key={index}>
-            {todo.done ? `Task Completed - ${todo.text}` : todo.text}
-          </li>
-        )}
-      </ul>
-    </>
-  );
-}
-
-export default App
+{tasks.map((task) => (
+  <li key={task.id}>
+    {task.done ? '✅' : '⬜'} {task.text}
+  </li>
+))}
 ```
 
-Run the app and check the result!
+The completed component should look like this:
+
+```jsx
+// src/components/TaskList.jsx
+
+const TaskList = () => {
+  const tasks = [
+    { id: 1, text: 'Learn JavaScript', done: true },
+    { id: 2, text: 'Learn JSX', done: false },
+    { id: 3, text: 'Learn HTML', done: true },
+    { id: 4, text: 'Learn CSS', done: true },
+    { id: 5, text: 'Learn React', done: false }
+  ]
+
+  return (
+    <section className="task-list">
+      <h1>Task List</h1>
+
+      <ul>
+        {tasks.map((task) => (
+          <li key={task.id}>
+            {task.done ? '✅' : '⬜'} {task.text}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+export default TaskList
+```
+
+Run the app and check the result. Each task should now show whether it is complete.
