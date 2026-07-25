@@ -43,7 +43,7 @@ const tasks = [
 ]
 ```
 
-We can contineu tp use `map()` to turn each task into an `<li>` element:
+We can continue to use `map()` to turn each task into an `<li>` element:
 
 ```jsx
   {tasks.map((task) => (
@@ -77,7 +77,7 @@ Without keys, React may have trouble matching each item to the correct element.
 
 Use a unique and stable value, such as an ID.
 
-Avoid using the array index when a unique ID is available.
+Avoid using the array index when a unique ID is available. ❌
  
   <code>
     {tasks.map((task, idx) => (
