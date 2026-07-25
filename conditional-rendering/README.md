@@ -32,9 +32,9 @@ An expression produces a value:
 {task.done ? 'Complete' : 'Incomplete'}
 </code>
 
-An `if...else` is a statement. It performs an action, but it does not return a value directly inside JSX.
+An <code>if...else</code> is a statement. It performs an action, but it does not return a value directly inside JSX.
 
-You can still use `if...else` before the `return`, then display the result in JSX.
+You can still use <code>if...else</code> before the <code>return</code>, then display the result in JSX.
 
 </details>
 
@@ -89,12 +89,9 @@ Learn React
 ```
 
 
+#### What does this code look like without a ternary?
 
-<details>
-  <summary>What does this code look like without a ternary?</summary>
-
-
-<code>
+```jsx
 const TaskList = () => {
 
     const task = {
@@ -122,6 +119,4 @@ const TaskList = () => {
 }
 
 export default TaskList
-</code>
-
-</details>
+```
