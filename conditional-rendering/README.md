@@ -93,6 +93,7 @@ Learn React
 <details>
   <summary>What does this code look like without a ternary?</summary>
 
+
 ```jsx
 const TaskList = () => {
 
