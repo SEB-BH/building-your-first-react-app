@@ -69,22 +69,21 @@ React needs a unique `key` for each element created with `map()`.
 <details>
   <summary>Why?</summary>
 
-    Keys help React identify each item in a list.
+Keys help React identify each item in a list.
 
-    When the list changes, React uses the keys to determine which items were added, removed, or updated.
+When the list changes, React uses the keys to determine which items were added, removed, or updated.
 
-    Without keys, React may have trouble matching each item to the correct element.
+Without keys, React may have trouble matching each item to the correct element.
 
-    Use a unique and stable value, such as an ID.
+Use a unique and stable value, such as an ID.
 
-    Avoid using the array index when a unique ID is available.
-
-    ❌👇
-    
+Avoid using the array index when a unique ID is available.
+ 
+  <code>
     {tasks.map((task, idx) => (
       <li key={idx}>{task.text}</li>
     ))}
-    
+  </code>
 
 </details>
 
