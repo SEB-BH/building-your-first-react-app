@@ -28,9 +28,9 @@ JSX only accepts JavaScript expressions inside curly braces.
 
 An expression produces a value:
 
-```jsx
+<code>
 {task.done ? 'Complete' : 'Incomplete'}
-```
+</code>
 
 An `if...else` is a statement. It performs an action, but it does not return a value directly inside JSX.
 
@@ -94,7 +94,7 @@ Learn React
   <summary>What does this code look like without a ternary?</summary>
 
 
-```jsx
+<code>
 const TaskList = () => {
 
     const task = {
@@ -122,6 +122,6 @@ const TaskList = () => {
 }
 
 export default TaskList
-```
+</code>
 
 </details>
