@@ -21,6 +21,7 @@ You will learn to build and export function components, integrate JavaScript wit
 | [Conditional Rendering](./conditional-rendering/README.md)          | Using ternary expressions to implement conditional rendering in JSX.|
 | [Looping with JSX Elements](./looping-with-jsx-elements/README.md)  | Use the `map()` method to loop through arrays and transform them into JSX elements.|
 | [Conditional Rendering in Loops](./conditional-rendering-in-loops/README.md) | Use loops to create lists in React and apply conditions to change how each list item is displayed based on its data. |
+| [Styling](./styling/README.md)                                      | Learn simple in-line styling in JSX. |
 | [Common Errors in React](./common-errors-in-react/README.md) | Learn to read error message and check for more information. |
 | **Total content**                         |                                                                                |
 

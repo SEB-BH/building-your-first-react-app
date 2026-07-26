@@ -100,6 +100,16 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
+          "friendlyName": "Styling",
+          "dirName": "styling",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
           "friendlyName": "Common Errors in React",
           "dirName": "common-errors-in-react",
           "type": "Content",
@@ -219,6 +229,16 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
+          "friendlyName": "Styling",
+          "dirName": "styling",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
           "friendlyName": "Common Errors in React",
           "dirName": "common-errors-in-react",
           "type": "Content",
@@ -334,6 +354,16 @@
           "skill": "",
           "learningObjective": "",
           "videoUrl": "https://generalassembly.wistia.com/medias/jafp3e8jen",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Styling",
+          "dirName": "styling",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wm1yx9s45f",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
         },
