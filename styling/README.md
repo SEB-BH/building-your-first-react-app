@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Styling in React</span>
+  <span class="headline">Building Your First React App</span>
   <span class="subhead">Inline Styles</span>
 </h1>
 
@@ -69,6 +69,23 @@ Values that include a unit are normally written as strings:
 </section>
 ```
 
+## Using a style object
+
+We can also store the styles in a variable:
+
+```jsx
+const headingStyles = {
+  textAlign: 'center',
+  color: 'navy'
+}
+```
+
+Then pass the object to the `style` attribute:
+
+```jsx
+<h1 style={headingStyles}>Task List</h1>
+```
+
 ## Dynamic inline styles
 
 Because the style object is JavaScript, its values can change based on data.
@@ -92,7 +109,30 @@ When `task.done` is `true`, `textDecoration` receives the value `'line-through'`
 
 When it is `false`, it receives `'none'`.
 
-## Shorthand
+## Using a variable
+
+Because styles are JavaScript objects, they can change based on data.
+
+We can change the text decoration depending on whether a task is complete:
+
+```jsx
+const Task = ({ text, done }) => {
+  let textDecoration = 'none'
+
+  if (done) {
+    textDecoration = 'line-through'
+  }
+
+  return (
+    <li style={{ textDecoration }}>
+      {text}
+    </li>
+  )
+}
+
+export default Task
+```
+
 
 ```jsx
 style={{ textDecoration }}
